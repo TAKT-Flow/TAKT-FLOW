@@ -1,37 +1,58 @@
 # TAKT FLOW for Ubuntu
 
+TAKT FLOW combines focus timers, planning, document notes, recording, speaking
+practice, and desktop widgets in one English/Korean Ubuntu workspace.
+
+## Download and install
+
+- [Download the latest Ubuntu release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/latest)
+- Supported: Ubuntu 20.04 / 22.04 / 24.04 LTS, x86-64 (amd64)
+
+```bash
+cd ~/Downloads
+sudo apt install ./takt_2.0.6-1_amd64.deb
+```
+
+SHA-256:
+`a25dfe086eea997c6b17ac0047552d4f521474216737a7179f8286bb14c62b62`
+
+See the [installation guide](설치-매뉴얼.md) and [user guide](사용-매뉴얼.md).
+This repository contains only the Ubuntu package and user documentation; app source
+and Windows installers are maintained separately.
+
+## 2.0.6 highlights
+
+- Add schedules with start and end dates and read them as continuous calendar bars.
+- Edit or delete one range from any date it covers without duplicate records.
+- Exchange timed and all-day date ranges through ICS files.
+- Resize desktop widgets more smoothly during slow or high-frequency edge drags.
+- Create an account, sign in or out, and sync Windows/Ubuntu data for free.
+
+---
+
+## 한국어 안내
+
 집중 타이머, 일정과 문서 메모, 녹음 기반 말하기 연습을 한곳에서 사용하는
 Ubuntu 데스크톱 앱입니다.
-
-## 다운로드
 
 - [최신 Ubuntu 설치 파일 받기](https://github.com/TAKT-Flow/TAKT-FLOW/releases/latest)
 - 지원 환경: Ubuntu 20.04 / 22.04 / 24.04 LTS, x86-64(amd64)
 
-다운로드한 `.deb` 파일은 다음 명령으로 설치합니다.
-
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.5-1_amd64.deb
+sudo apt install ./takt_2.0.6-1_amd64.deb
 ```
 
 SHA-256:
-`5829300a100b8071a54e8e69faf267c99a86cbab491a814fd8d70c0d6b2c48aa`
+`a25dfe086eea997c6b17ac0047552d4f521474216737a7179f8286bb14c62b62`
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
 [사용 매뉴얼](사용-매뉴얼.md)을 확인하세요.
 
-이 저장소는 Ubuntu 배포 파일과 사용자 문서만 제공합니다. 앱 소스와 Windows
-설치 파일은 포함하지 않습니다.
+## 2.0.6 업데이트
 
-## 2.0.5 업데이트
-
-- 문서에 이름과 색을 직접 정한 태그를 붙일 수 있습니다.
-- 달력에는 날짜별 최다 사용 태그를 원형 점 하나로 표시합니다.
-- 날짜 메뉴의 **문서 요약**에서 문서 제목을 날짜별·태그별로 찾을 수 있습니다.
-- 태그와 문서는 Windows와 Ubuntu 사이의 계정 동기화에 함께 포함됩니다.
-- 로그인과 확인·저장·삭제 창에서 `Enter`와 `Esc`가 일관되게 동작합니다.
-- Ubuntu 영어 화면의 키링 안내와 17개 이상 작업 링크의 스크롤을 보완했습니다.
-
-계정 가입, 로그인, 로그아웃과 기기 동기화는 현재 무료이며 2.0.5에는 결제나
-유료 기능 제한이 없습니다.
+- 일정에 시작일과 종료일을 지정하고 달력의 연속 색상 막대로 확인할 수 있습니다.
+- 범위 안 어느 날짜에서 수정·삭제해도 원본 일정 하나만 변경됩니다.
+- 시간 일정과 종일 일정의 날짜 범위를 ICS로 가져오고 내보낼 수 있습니다.
+- 위젯 테두리를 천천히 또는 빠르게 끌 때 크기 조절이 더 부드러워졌습니다.
+- 계정 가입, 로그인, 로그아웃과 Windows/Ubuntu 기기 동기화는 계속 무료입니다.
