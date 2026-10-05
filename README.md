@@ -10,21 +10,23 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.11-1_amd64.deb
+sudo apt install ./takt_2.0.12-1_amd64.deb
 ```
 
 SHA-256:
-`ba842971edaef8212289007e7493919dac3e64de4a52c5829eb5dbaff6a37ec2`
+`8f3edfd853f9e31f706c5051c953c288b5919cfdea4ab8375b5b5ac8a4291bca`
 
 See the [installation guide](설치-매뉴얼.md) and [user guide](사용-매뉴얼.md).
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.0.11 highlights
+## 2.0.12 highlights
 
 - Single-click a calendar cell to select its date, or double-click it to open the full
   schedule editor immediately. Right-click still opens the complete date action menu.
-- Keep partially typed quick tasks and document text intact during background sync.
+- Keep active Korean IME composition intact during background planner refreshes, including
+  quick tasks, document titles, and document bodies. The final composing character is no
+  longer cleared or lost.
 - Choose start and end dates from a theme-aware range calendar and set a custom color
   for multi-day schedule bars.
 
@@ -57,20 +59,21 @@ Ubuntu 데스크톱 앱입니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.11-1_amd64.deb
+sudo apt install ./takt_2.0.12-1_amd64.deb
 ```
 
 SHA-256:
-`ba842971edaef8212289007e7493919dac3e64de4a52c5829eb5dbaff6a37ec2`
+`8f3edfd853f9e31f706c5051c953c288b5919cfdea4ab8375b5b5ac8a4291bca`
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
 [사용 매뉴얼](사용-매뉴얼.md)을 확인하세요.
 
-## 2.0.11 업데이트
+## 2.0.12 업데이트
 
 - 달력 셀은 한 번 클릭하면 날짜만 선택되고, 더블클릭하면 해당 날짜의 정식 일정
   추가 창이 바로 열립니다. 우클릭의 날짜 전체 메뉴는 그대로 유지됩니다.
-- 백그라운드 동기화 중에도 입력하던 빠른 할 일과 문서 내용이 유지됩니다.
+- 백그라운드 플래너 갱신 중에도 빠른 할 일, 문서 제목과 본문에서 조합 중인 한글이
+  초기화되지 않으며 마지막 글자도 사라지지 않습니다.
 - 여러 날 일정의 날짜 선택 달력을 개선했고 일정 막대 색상을 직접 고를 수 있습니다.
 
 - 내 정보 또는 달력의 사슬 아이콘에서 `기존 캘린더`, `캘린더 생성`, `초대하기`,
