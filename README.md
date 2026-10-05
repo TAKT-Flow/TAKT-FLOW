@@ -10,20 +10,22 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.9-1_amd64.deb
+sudo apt install ./takt_2.0.10-1_amd64.deb
 ```
 
 SHA-256:
-`55b12b0a17d7012d9a530481fb664e5a75121c1931c7264a0e0100d8d901aa46`
+`5c7071157121e46e89700170e551e682aa1d6e26070d180d7e6915f396b74e16`
 
 See the [installation guide](설치-매뉴얼.md) and [user guide](사용-매뉴얼.md).
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.0.9 highlights
+## 2.0.10 highlights
 
-- Choose an existing team calendar or create a new shared calendar from My TAKT or the
-  planner chain icon.
+- Open Existing calendar, Create calendar, Invite, or Inbox from one compact horizontal
+  action row in My TAKT or the planner chain icon.
+- Promote any existing local or cloud calendar to a shared calendar without creating a
+  duplicate, keeping its schedules, repeats, documents, folders, and tags.
 - Enter multiple TAKT account emails. Enter moves to the next address and invitations
   are sent only when the button is clicked.
 - Keep typing while account synchronization runs in the background without losing focus.
@@ -49,18 +51,21 @@ Ubuntu 데스크톱 앱입니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.9-1_amd64.deb
+sudo apt install ./takt_2.0.10-1_amd64.deb
 ```
 
 SHA-256:
-`55b12b0a17d7012d9a530481fb664e5a75121c1931c7264a0e0100d8d901aa46`
+`5c7071157121e46e89700170e551e682aa1d6e26070d180d7e6915f396b74e16`
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
 [사용 매뉴얼](사용-매뉴얼.md)을 확인하세요.
 
-## 2.0.9 업데이트
+## 2.0.10 업데이트
 
-- 내 정보 또는 달력의 사슬 아이콘에서 기존 팀 캘린더를 선택하거나 새 공유 캘린더를 만듭니다.
+- 내 정보 또는 달력의 사슬 아이콘에서 `기존 캘린더`, `캘린더 생성`, `초대하기`,
+  `받은 초대`를 한 줄로 확인합니다.
+- 로컬 또는 클라우드의 기존 캘린더를 중복 생성하지 않고 공유로 전환하며 일정, 반복,
+  문서, 폴더와 태그를 그대로 유지합니다.
 - 여러 이메일을 입력할 수 있습니다. Enter는 다음 입력칸으로 이동하고 실제 전송은
   `초대 보내기`를 클릭할 때만 진행됩니다.
 - 계정 동기화가 백그라운드에서 실행되어도 이메일 입력 포커스를 유지합니다.
