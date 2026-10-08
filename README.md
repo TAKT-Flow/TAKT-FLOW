@@ -10,17 +10,22 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.13-1_amd64.deb
+sudo apt install ./takt_2.0.14-1_amd64.deb
 ```
 
 SHA-256:
-`557e0b2dab7ef5d88dc671c501fba979a14eb80126d89f1894204be8e9f4d3e0`
+`9a2840606247a2d5c9f5d7a27278514520ff58016405813ba07cf1c7691614b3`
 
 See the [installation guide](설치-매뉴얼.md) and [user guide](사용-매뉴얼.md).
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.0.13 highlights
+## 2.0.14 highlights
+
+- Review overdue tasks in one compact window, select only the items you want, and either
+  bring them to today or mark them complete on their original dates.
+- Keep recurring schedules, event records, and read-only calendars out of bulk overdue
+  actions. Enter still cancels the window instead of triggering an accidental bulk action.
 
 - Keep automatic planner and speaking-practice synchronization queued while invitation
   or shared-calendar polling is using the account connection.
@@ -66,16 +71,21 @@ Ubuntu 데스크톱 앱입니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.13-1_amd64.deb
+sudo apt install ./takt_2.0.14-1_amd64.deb
 ```
 
 SHA-256:
-`557e0b2dab7ef5d88dc671c501fba979a14eb80126d89f1894204be8e9f4d3e0`
+`9a2840606247a2d5c9f5d7a27278514520ff58016405813ba07cf1c7691614b3`
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
 [사용 매뉴얼](사용-매뉴얼.md)을 확인하세요.
 
-## 2.0.13 업데이트
+## 2.0.14 업데이트
+
+- 지난 미완료 항목을 한 창에서 골라 오늘로 가져오거나, 원래 날짜를 유지한 채
+  완료 처리할 수 있습니다.
+- 반복 일정, 기록형 일정과 읽기 전용 캘린더는 일괄 정리에서 제외되며, Enter는
+  실수로 대량 작업을 실행하지 않고 창을 취소합니다.
 
 - 초대 또는 공유 캘린더 조회 중에도 일반 일정·메모·말하기 연습의 자동 동기화
   요청을 보관하고, 다음 백그라운드 조회보다 먼저 처리합니다.
