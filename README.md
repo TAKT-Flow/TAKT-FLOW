@@ -10,17 +10,24 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.12-1_amd64.deb
+sudo apt install ./takt_2.0.13-1_amd64.deb
 ```
 
 SHA-256:
-`8f3edfd853f9e31f706c5051c953c288b5919cfdea4ab8375b5b5ac8a4291bca`
+`557e0b2dab7ef5d88dc671c501fba979a14eb80126d89f1894204be8e9f4d3e0`
 
 See the [installation guide](설치-매뉴얼.md) and [user guide](사용-매뉴얼.md).
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.0.12 highlights
+## 2.0.13 highlights
+
+- Keep automatic planner and speaking-practice synchronization queued while invitation
+  or shared-calendar polling is using the account connection.
+- Upload pending edits before the next background poll. Normal editing after sign-in
+  does not require pressing **Sync now** after every change.
+- If Ubuntu contains work that has not reached Windows, update Ubuntu first without
+  deleting `~/Documents/TAKT`, complete synchronization, and then synchronize Windows.
 
 - Single-click a calendar cell to select its date, or double-click it to open the full
   schedule editor immediately. Right-click still opens the complete date action menu.
@@ -59,16 +66,22 @@ Ubuntu 데스크톱 앱입니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.12-1_amd64.deb
+sudo apt install ./takt_2.0.13-1_amd64.deb
 ```
 
 SHA-256:
-`8f3edfd853f9e31f706c5051c953c288b5919cfdea4ab8375b5b5ac8a4291bca`
+`557e0b2dab7ef5d88dc671c501fba979a14eb80126d89f1894204be8e9f4d3e0`
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
 [사용 매뉴얼](사용-매뉴얼.md)을 확인하세요.
 
-## 2.0.12 업데이트
+## 2.0.13 업데이트
+
+- 초대 또는 공유 캘린더 조회 중에도 일반 일정·메모·말하기 연습의 자동 동기화
+  요청을 보관하고, 다음 백그라운드 조회보다 먼저 처리합니다.
+- 로그인 후 일반적인 작성·수정에는 `지금 동기화`를 매번 누를 필요가 없습니다.
+- Ubuntu 작업이 Windows에 나타나지 않았다면 `~/Documents/TAKT`를 삭제하지 말고
+  Ubuntu부터 업데이트해 동기화를 완료한 뒤 Windows를 동기화하세요.
 
 - 달력 셀은 한 번 클릭하면 날짜만 선택되고, 더블클릭하면 해당 날짜의 정식 일정
   추가 창이 바로 열립니다. 우클릭의 날짜 전체 메뉴는 그대로 유지됩니다.
