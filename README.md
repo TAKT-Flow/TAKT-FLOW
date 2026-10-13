@@ -10,17 +10,24 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.14-1_amd64.deb
+sudo apt install ./takt_2.0.16-1_amd64.deb
 ```
 
 SHA-256:
-`9a2840606247a2d5c9f5d7a27278514520ff58016405813ba07cf1c7691614b3`
+`fa2ec5980d2ba89c14296424abfb6c1a68ad264ba558a16df0479475dbae690f`
 
 See the [installation guide](설치-매뉴얼.md) and [user guide](사용-매뉴얼.md).
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.0.14 highlights
+## 2.0.16 highlights
+
+- Time labels, calendar badges, and schedule text now share the same first-line
+  baseline in aggregate calendar rows, including multiline quick tasks.
+- Background synchronization no longer clears and recreates an open calendar selector.
+  Real calendar-list changes are applied once after the selector closes.
+
+## Core capabilities
 
 - Review overdue tasks in one compact window, select only the items you want, and either
   bring them to today or mark them complete on their original dates.
@@ -71,16 +78,23 @@ Ubuntu 데스크톱 앱입니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.14-1_amd64.deb
+sudo apt install ./takt_2.0.16-1_amd64.deb
 ```
 
 SHA-256:
-`9a2840606247a2d5c9f5d7a27278514520ff58016405813ba07cf1c7691614b3`
+`fa2ec5980d2ba89c14296424abfb6c1a68ad264ba558a16df0479475dbae690f`
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
 [사용 매뉴얼](사용-매뉴얼.md)을 확인하세요.
 
-## 2.0.14 업데이트
+## 2.0.16 업데이트
+
+- 종합 캘린더의 시간, 캘린더 소속 배지와 일정 내용이 같은 첫 줄 기준선에
+  맞춰집니다. 여러 줄 빠른 할 일도 첫 줄 정렬을 유지합니다.
+- 백그라운드 동기화 중 열린 캘린더 목록을 다시 만들지 않아 깜빡임이 사라졌습니다.
+  실제 목록 변경은 선택 창을 닫은 직후 한 번만 반영됩니다.
+
+## 주요 기능
 
 - 지난 미완료 항목을 한 창에서 골라 오늘로 가져오거나, 원래 날짜를 유지한 채
   완료 처리할 수 있습니다.
