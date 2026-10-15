@@ -10,22 +10,24 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.16-1_amd64.deb
+sudo apt install ./takt_2.0.17-1_amd64.deb
 ```
 
 SHA-256:
-`fa2ec5980d2ba89c14296424abfb6c1a68ad264ba558a16df0479475dbae690f`
+`be1da2ccaf21aae08ab1c2eba03a071ed33500b6a9894644975f7864e701e385`
 
 See the [installation guide](설치-매뉴얼.md) and [user guide](사용-매뉴얼.md).
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.0.16 highlights
+## 2.0.17 highlights
 
-- Time labels, calendar badges, and schedule text now share the same first-line
-  baseline in aggregate calendar rows, including multiline quick tasks.
-- Background synchronization no longer clears and recreates an open calendar selector.
-  Real calendar-list changes are applied once after the selector closes.
+- Long schedule-summary cards expand to show their full text. Large agendas stay inside
+  the available screen and scroll internally.
+- Right-click a calendar-list entry to make that calendar, or All calendars, the first
+  screen shown on the next launch.
+- Sharing the built-in default calendar promotes the same visible calendar instead of
+  leaving an empty personal calendar beside a separate shared copy.
 
 ## Core capabilities
 
@@ -64,7 +66,10 @@ and Windows installers are maintained separately.
 - Start normally without an interactive keyring-creation prompt when no vault exists.
 - Customize the outer background, timer, recorder, and planner cards independently,
   including separate opacity controls for all three work cards.
-- Account, invitation, and Windows/Ubuntu synchronization features remain free.
+- TAKT 2.0.17 contains no payment flow or premium lock. Accounts created on or before
+  February 28, 2027 remain free, including future updates. Accounts created from March 1,
+  2027 are planned to require a KRW 2,900 paid entitlement. Payment method and detailed
+  terms will be announced before the transition.
 
 ---
 
@@ -78,21 +83,23 @@ Ubuntu 데스크톱 앱입니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.16-1_amd64.deb
+sudo apt install ./takt_2.0.17-1_amd64.deb
 ```
 
 SHA-256:
-`fa2ec5980d2ba89c14296424abfb6c1a68ad264ba558a16df0479475dbae690f`
+`be1da2ccaf21aae08ab1c2eba03a071ed33500b6a9894644975f7864e701e385`
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
 [사용 매뉴얼](사용-매뉴얼.md)을 확인하세요.
 
-## 2.0.16 업데이트
+## 2.0.17 업데이트
 
-- 종합 캘린더의 시간, 캘린더 소속 배지와 일정 내용이 같은 첫 줄 기준선에
-  맞춰집니다. 여러 줄 빠른 할 일도 첫 줄 정렬을 유지합니다.
-- 백그라운드 동기화 중 열린 캘린더 목록을 다시 만들지 않아 깜빡임이 사라졌습니다.
-  실제 목록 변경은 선택 창을 닫은 직후 한 번만 반영됩니다.
+- 긴 일정 요약 카드는 전체 글자가 보이도록 높이가 늘어납니다. 일정이 많으면 창은
+  화면 안에서만 커지고 나머지는 내부 스크롤로 확인합니다.
+- 캘린더 목록을 마우스 오른쪽 버튼으로 눌러 원하는 캘린더나 종합 캘린더를 다음
+  실행에 먼저 열 메인 캘린더로 지정할 수 있습니다.
+- 기본 캘린더 공유 시 빈 개인 캘린더와 별도 공유 복사본을 함께 만들지 않고 같은
+  캘린더를 일정·반복·문서와 함께 공유 상태로 전환합니다.
 
 ## 주요 기능
 
@@ -126,4 +133,6 @@ SHA-256:
 - 소유자는 초대와 구성원을 관리하고, 구성원은 캘린더에서 안전하게 나갈 수 있습니다.
 - 사용할 수 있는 키링이 없어도 생성 암호창을 띄우지 않고 정상 시작합니다.
 - 외부 배경, 타이머, 녹음기, 달력·메모 카드를 따로 꾸미고 카드별 투명도를 조절합니다.
-- 계정·초대·Windows/Ubuntu 동기화 기능은 계속 무료입니다.
+- 2.0.17에는 결제나 유료 기능 제한이 없습니다. 2027년 2월 28일까지 가입한 계정은
+  이후 업데이트를 포함해 계속 무료입니다. 2027년 3월 1일 이후 신규 가입 계정은
+  2,900원 유료 전환 예정이며, 결제 방식과 세부 기준은 전환 전에 별도 안내합니다.
