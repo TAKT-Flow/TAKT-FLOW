@@ -14,7 +14,7 @@ sudo apt install ./takt_2.0.19-1_amd64.deb
 ```
 
 SHA-256:
-`df7e590c3638b4bedb7b9c1aa821395636c8e70bed45b75ba65d6de6ab1448e3`
+`7e27b07f3f0a79891d64268b6cc8560f0e0613b9a131101275f12a7132314649`
 
 See the [installation guide](설치-매뉴얼.md) and [user guide](사용-매뉴얼.md).
 This repository contains only the Ubuntu package and user documentation; app source
@@ -99,7 +99,7 @@ sudo apt install ./takt_2.0.19-1_amd64.deb
 ```
 
 SHA-256:
-`df7e590c3638b4bedb7b9c1aa821395636c8e70bed45b75ba65d6de6ab1448e3`
+`7e27b07f3f0a79891d64268b6cc8560f0e0613b9a131101275f12a7132314649`
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
 [사용 매뉴얼](사용-매뉴얼.md)을 확인하세요.
