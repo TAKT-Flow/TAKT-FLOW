@@ -1,0 +1,11 @@
+{
+  "app_version": "2.0.21",
+  "runtime_source_base_commit": "ab1fdba088b242ad6bebc9db98bcd2d8dab68c76",
+  "runtime_source_state": "2.0.21 release working tree captured before its source commit",
+  "captured_on": "2026-10-17",
+  "platform": "Windows",
+  "isolated_example_data": true,
+  "production_settings_changed": false,
+  "description": "Actual Qt widgets, captured without editing the images; sample schedules, links and practice records only.",
+  "command": "python tools/capture_manual_screens.py --output <review-folder>"
+}
