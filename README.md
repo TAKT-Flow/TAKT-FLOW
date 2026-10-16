@@ -10,17 +10,29 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.17-1_amd64.deb
+sudo apt install ./takt_2.0.19-1_amd64.deb
 ```
 
 SHA-256:
-`be1da2ccaf21aae08ab1c2eba03a071ed33500b6a9894644975f7864e701e385`
+`df7e590c3638b4bedb7b9c1aa821395636c8e70bed45b75ba65d6de6ab1448e3`
 
 See the [installation guide](설치-매뉴얼.md) and [user guide](사용-매뉴얼.md).
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.0.17 highlights
+## 2.0.19 highlights
+
+- Review a calendar's shared members from its right-click menu. Owners and
+  retained co-owners can change per-member roles with inline selectors.
+- Invite people as viewers, editors or administrators. Transfer primary ownership
+  while retaining the former owner's full rights. Leaving as a co-owner does not
+  delete the calendar or other members' content.
+- Review received/sent invitation history, status filters and in-app read/response
+  timestamps. This is not external email read tracking.
+- Web subscriptions and agenda/document summaries now fit constrained screens,
+  including at 250% scaling, with scrolling content and a reachable footer.
+- Includes the calendar, input, recurring-event color and synchronization
+  improvements prepared for 2.0.18. All collaborators should update to use new roles.
 
 - Long schedule-summary cards expand to show their full text. Large agendas stay inside
   the available screen and scroll internally.
@@ -66,7 +78,7 @@ and Windows installers are maintained separately.
 - Start normally without an interactive keyring-creation prompt when no vault exists.
 - Customize the outer background, timer, recorder, and planner cards independently,
   including separate opacity controls for all three work cards.
-- TAKT 2.0.17 contains no payment flow or premium lock. Accounts created on or before
+- TAKT 2.0.19 contains no payment flow or premium lock. Accounts created on or before
   February 28, 2027 remain free, including future updates. Accounts created from March 1,
   2027 are planned to require a KRW 2,900 paid entitlement. Payment method and detailed
   terms will be announced before the transition.
@@ -83,16 +95,27 @@ Ubuntu 데스크톱 앱입니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.17-1_amd64.deb
+sudo apt install ./takt_2.0.19-1_amd64.deb
 ```
 
 SHA-256:
-`be1da2ccaf21aae08ab1c2eba03a071ed33500b6a9894644975f7864e701e385`
+`df7e590c3638b4bedb7b9c1aa821395636c8e70bed45b75ba65d6de6ab1448e3`
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
 [사용 매뉴얼](사용-매뉴얼.md)을 확인하세요.
 
-## 2.0.17 업데이트
+## 2.0.19 업데이트
+
+- 캘린더 목록 우클릭에서 공유 사용자 목록을 열고 이름(메일)과 권한을 확인합니다.
+  소유자와 공동 소유자만 각 사용자의 권한 콤보박스를 변경할 수 있습니다.
+- 읽기·수정·관리자 권한으로 초대하고 소유권을 양도할 수 있습니다. 이전 소유자는
+  모든 권한을 가진 공동 소유자로 남으며, 나가더라도 캘린더와 다른 구성원은 유지됩니다.
+- 받은·보낸 초대 이력과 상태별 필터, 앱 내 확인·응답 시각을 초대함에서 봅니다.
+  이메일 읽음 추적 기능은 아닙니다.
+- 웹 일정 구독창과 일정·문서 요약창이 250% 등 작은 고배율 화면 안에서 스크롤되고
+  닫기 버튼이 잘리거나 겹치지 않도록 수정했습니다.
+- 2.0.18에서 준비한 달력·입력·반복 색상·동기화 개선도 포함합니다. 새 권한을 사용할
+  협업 구성원은 모두 최신 버전으로 업데이트해 주세요.
 
 - 긴 일정 요약 카드는 전체 글자가 보이도록 높이가 늘어납니다. 일정이 많으면 창은
   화면 안에서만 커지고 나머지는 내부 스크롤로 확인합니다.
@@ -133,6 +156,6 @@ SHA-256:
 - 소유자는 초대와 구성원을 관리하고, 구성원은 캘린더에서 안전하게 나갈 수 있습니다.
 - 사용할 수 있는 키링이 없어도 생성 암호창을 띄우지 않고 정상 시작합니다.
 - 외부 배경, 타이머, 녹음기, 달력·메모 카드를 따로 꾸미고 카드별 투명도를 조절합니다.
-- 2.0.17에는 결제나 유료 기능 제한이 없습니다. 2027년 2월 28일까지 가입한 계정은
+- 2.0.19에는 결제나 유료 기능 제한이 없습니다. 2027년 2월 28일까지 가입한 계정은
   이후 업데이트를 포함해 계속 무료입니다. 2027년 3월 1일 이후 신규 가입 계정은
   2,900원 유료 전환 예정이며, 결제 방식과 세부 기준은 전환 전에 별도 안내합니다.
