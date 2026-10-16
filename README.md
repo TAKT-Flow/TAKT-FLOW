@@ -10,17 +10,28 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.19-1_amd64.deb
+sudo apt install ./takt_2.0.20-1_amd64.deb
 ```
 
 SHA-256:
-`7e27b07f3f0a79891d64268b6cc8560f0e0613b9a131101275f12a7132314649`
+`2f1e1b0c2ae91b801d004f501d96199fd24cd541de5c9711a4a74d3cf736099b`
 
 See the [installation guide](설치-매뉴얼.md) and [user guide](사용-매뉴얼.md).
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.0.19 highlights
+## 2.0.20 highlights
+
+- Appearance card gaps, rounded corners and scrollbars follow the selected app
+  theme even when the operating system uses the opposite theme.
+- The appearance dialog keeps Apply and Cancel reachable on constrained screens,
+  including at 250% scaling, by scrolling its content instead of clipping controls.
+- Header menu arrows align to the physical pixel grid at fractional scaling,
+  preserving their native outline across odd/even button sizes and positions.
+- Existing accounts, saved sessions, calendars and notes are preserved. No server
+  SQL changes or additional sign-in steps are required.
+
+## Included from 2.0.19
 
 - Review a calendar's shared members from its right-click menu. Owners and
   retained co-owners can change per-member roles with inline selectors.
@@ -78,7 +89,7 @@ and Windows installers are maintained separately.
 - Start normally without an interactive keyring-creation prompt when no vault exists.
 - Customize the outer background, timer, recorder, and planner cards independently,
   including separate opacity controls for all three work cards.
-- TAKT 2.0.19 contains no payment flow or premium lock. Accounts created on or before
+- TAKT 2.0.20 contains no payment flow or premium lock. Accounts created on or before
   February 28, 2027 remain free, including future updates. Accounts created from March 1,
   2027 are planned to require a KRW 2,900 paid entitlement. Payment method and detailed
   terms will be announced before the transition.
@@ -95,16 +106,27 @@ Ubuntu 데스크톱 앱입니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.19-1_amd64.deb
+sudo apt install ./takt_2.0.20-1_amd64.deb
 ```
 
 SHA-256:
-`7e27b07f3f0a79891d64268b6cc8560f0e0613b9a131101275f12a7132314649`
+`2f1e1b0c2ae91b801d004f501d96199fd24cd541de5c9711a4a74d3cf736099b`
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
 [사용 매뉴얼](사용-매뉴얼.md)을 확인하세요.
 
-## 2.0.19 업데이트
+## 2.0.20 업데이트
+
+- 시스템 테마와 앱 테마가 달라도 창 꾸미기의 카드 사이 배경, 둥근 모서리와
+  스크롤바가 선택한 앱 테마를 따릅니다.
+- 250% 같은 고배율 화면에서 창 꾸미기 내용은 내부 스크롤되고 적용·취소 버튼은
+  화면 안에 유지됩니다.
+- 녹음·화면·설정·도움·더보기 화살표를 물리 픽셀 격자에 맞춰 그려 버튼의 홀짝
+  크기와 위치 때문에 고배율에서 화살표 외곽이 달라지는 문제를 수정했습니다.
+- 기존 계정, 저장된 로그인 상태, 일정과 메모는 유지됩니다. 서버 SQL이나 추가
+  로그인 절차를 사용자가 실행할 필요가 없습니다.
+
+## 2.0.19 포함 기능
 
 - 캘린더 목록 우클릭에서 공유 사용자 목록을 열고 이름(메일)과 권한을 확인합니다.
   소유자와 공동 소유자만 각 사용자의 권한 콤보박스를 변경할 수 있습니다.
@@ -156,6 +178,6 @@ SHA-256:
 - 소유자는 초대와 구성원을 관리하고, 구성원은 캘린더에서 안전하게 나갈 수 있습니다.
 - 사용할 수 있는 키링이 없어도 생성 암호창을 띄우지 않고 정상 시작합니다.
 - 외부 배경, 타이머, 녹음기, 달력·메모 카드를 따로 꾸미고 카드별 투명도를 조절합니다.
-- 2.0.19에는 결제나 유료 기능 제한이 없습니다. 2027년 2월 28일까지 가입한 계정은
+- 2.0.20에는 결제나 유료 기능 제한이 없습니다. 2027년 2월 28일까지 가입한 계정은
   이후 업데이트를 포함해 계속 무료입니다. 2027년 3월 1일 이후 신규 가입 계정은
   2,900원 유료 전환 예정이며, 결제 방식과 세부 기준은 전환 전에 별도 안내합니다.
