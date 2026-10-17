@@ -20,6 +20,17 @@ See the [installation guide](설치-매뉴얼.md) and [2.0.21 user manual](사�
 ([English quick guide](사용-매뉴얼.md#english)). The manual covers first launch, startup
 settings, all five views, widgets, shared access and detailed input with 12 actual
 application screenshots using example data.
+
+**Manual formats (2.0.21):** [Read online](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [Download PDF](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.21/TAKT-FLOW-User-Manual-2.0.21.pdf) · [Download offline HTML](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.21/TAKT-FLOW-User-Manual-2.0.21.html)
+
+The reviewed PDF has 31 searchable pages and chapter bookmarks. The standalone
+HTML includes all screenshots for offline use. The full guide is Korean with an
+English quick guide; no separate app or installation is needed to read it.
+
+**매뉴얼 보기·저장:** [웹에서 읽기](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.21/TAKT-FLOW-User-Manual-2.0.21.pdf) · [HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.21/TAKT-FLOW-User-Manual-2.0.21.html)
+
+PDF는 31쪽으로 목차·책갈피·한글 검색을 지원합니다. HTML은 화면 이미지가
+포함된 단일 파일이므로 내려받은 뒤 인터넷 없이 브라우저에서 열 수 있습니다.
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
