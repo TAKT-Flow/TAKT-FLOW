@@ -10,31 +10,50 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.22-1_amd64.deb
+sudo apt install ./takt_2.0.23-1_amd64.deb
 ```
 
 SHA-256:
-`c62059cbb03c6d01586be8753e786748ae26fc7c803a334d8202cba0c929d4d4`
+`c6eb3405a5323be1c87edb1a20652a36eb1aee465deb8b3f1f35e5b3a8cda7ad`
 
-See the [installation guide](설치-매뉴얼.md) and [2.0.22 user manual](사용-매뉴얼.md)
+See the [installation guide](설치-매뉴얼.md) and [2.0.23 user manual](사용-매뉴얼.md)
 ([English quick guide](사용-매뉴얼.md#english)). The manual covers first launch, startup
 settings, all five views, widgets, shared access and detailed input with 12 actual
 application screenshots using example data.
 
-**Manual formats (2.0.22):** [Read online](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [Download PDF](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.22/TAKT-FLOW-User-Manual-2.0.22.pdf) · [Download offline HTML](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.22/TAKT-FLOW-User-Manual-2.0.22.html)
+**Manual formats (2.0.23):** [Read online](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [Download PDF](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.23/TAKT-FLOW-User-Manual-2.0.23.pdf) · [Download offline HTML](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.23/TAKT-FLOW-User-Manual-2.0.23.html)
 
-The reviewed PDF has 31 searchable pages and chapter bookmarks. The standalone
+The reviewed PDF has 32 searchable pages and chapter bookmarks. The standalone
 HTML includes all screenshots for offline use. The full guide is Korean with an
 English quick guide; no separate app or installation is needed to read it.
 
-**매뉴얼 보기·저장:** [웹에서 읽기](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.22/TAKT-FLOW-User-Manual-2.0.22.pdf) · [HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.22/TAKT-FLOW-User-Manual-2.0.22.html)
+**매뉴얼 보기·저장:** [웹에서 읽기](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.23/TAKT-FLOW-User-Manual-2.0.23.pdf) · [HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.23/TAKT-FLOW-User-Manual-2.0.23.html)
 
-PDF는 31쪽으로 목차·책갈피·한글 검색을 지원합니다. HTML은 화면 이미지가
+PDF는 32쪽으로 목차·책갈피·한글 검색을 지원합니다. HTML은 화면 이미지가
 포함된 단일 파일이므로 내려받은 뒤 인터넷 없이 브라우저에서 열 수 있습니다.
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.0.22 highlights
+## 2.0.23 highlights
+
+- Treat the default calendar on your own devices as one personal calendar,
+  distinct from sharing with other people. Preserve existing IDs and content.
+- Reconcile safe account changes automatically and ask only for genuine conflicts.
+- Identify the startup calendar with bold text, separate from the current-view check.
+- Keep combo lists and management menus stable during background polling, while
+  retaining permission, account and in-flight-operation safety checks.
+- Use calendar-add, members, refresh and gear icons in that order. Recover space
+  from the smaller toolbar for the calendar; use a roomier weekday row that also
+  shrinks with the date rows in compact windows.
+- Remove transient small controls during detailed editing and the thick selected
+  schedule outline. Includes the updated 32-page PDF and offline HTML manual.
+- Use responsive, branded Korean/English browser guidance for Google/Kakao
+  authentication, with distinct cancellation/error states and final results in TAKT.
+- Keep selection-only saves responsive while preserving ordered atomic writes.
+  Content saves, backups and normal exit wait for durable completion. Protect
+  unsaved edits and interrupted account switches from incorrect sync uploads.
+
+## Included from 2.0.22
 
 - Sign up with Google or Kakao, or link them from an existing TAKT account.
   Email sign-in and existing calendars remain available. Use the account email
@@ -132,7 +151,7 @@ and Windows installers are maintained separately.
 - Start normally without an interactive keyring-creation prompt when no vault exists.
 - Customize the outer background, timer, recorder, and planner cards independently,
   including separate opacity controls for all three work cards.
-- TAKT 2.0.22 contains no payment flow or premium lock. Accounts created on or before
+- TAKT 2.0.23 contains no payment flow or premium lock. Accounts created on or before
   February 28, 2027 remain free, including future updates. Accounts created from March 1,
   2027 are planned to require a KRW 2,900 paid entitlement. Payment method and detailed
   terms will be announced before the transition.
@@ -149,17 +168,30 @@ Ubuntu 데스크톱 앱입니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.22-1_amd64.deb
+sudo apt install ./takt_2.0.23-1_amd64.deb
 ```
 
 SHA-256:
-`c62059cbb03c6d01586be8753e786748ae26fc7c803a334d8202cba0c929d4d4`
+`c6eb3405a5323be1c87edb1a20652a36eb1aee465deb8b3f1f35e5b3a8cda7ad`
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
-[2.0.22 사용 매뉴얼](사용-매뉴얼.md)을 확인하세요. 초기 화면·자동 실행·모드별 사용법·
+[2.0.23 사용 매뉴얼](사용-매뉴얼.md)을 확인하세요. 초기 화면·자동 실행·모드별 사용법·
 위젯·Shift+Enter·공유 권한·백업을 14개 절과 실제 예시 화면 12장으로 안내합니다.
 
-## 2.0.22 업데이트
+## 2.0.23 업데이트
+
+- 기본 캘린더의 기기 동기화와 다른 사람과의 공유를 구분하고 기존 자료를 유지합니다.
+- 안전한 변경은 자동 동기화하며 실제 충돌이 있을 때만 선택을 요청합니다.
+- 시작 캘린더는 굵게 표시하고 메뉴·선택 목록의 갱신 중 깜빡임을 개선했습니다.
+- 달력 추가·공유·새로고침·관리 순서로 아이콘을 정리하고 툴바 공간을 줄였습니다.
+  일~토 요일 행은 넉넉하게 하되 작은 창에서는 날짜 행과 함께 줄어듭니다.
+- 상세 수정 시 작은 창이 잠깐 나타나는 현상과 일정 선택의 굵은 테두리를 제거했습니다.
+- Google·카카오 브라우저 인증 안내를 한영·밝은/어두운 화면에 맞게 정리했습니다.
+- 실제 예시 화면을 갱신한 32쪽 PDF와 오프라인 HTML 매뉴얼을 제공합니다.
+- 화면 선택 저장의 지연을 줄이고 내용 저장·백업·종료 시 저장 완료를 확인합니다.
+  저장 실패와 계정 전환 중 중단 상황에서도 잘못된 동기화 업로드를 방지합니다.
+
+## 2.0.22 포함 기능
 
 - Google·카카오로 가입/로그인하거나 기존 TAKT 계정에서 연결할 수 있습니다.
   기존 이메일 로그인과 자료를 유지하며 초대에는 내 정보에 표시된 메일을 사용합니다.
@@ -243,6 +275,6 @@ SHA-256:
 - 소유자는 초대와 구성원을 관리하고, 구성원은 캘린더에서 안전하게 나갈 수 있습니다.
 - 사용할 수 있는 키링이 없어도 생성 암호창을 띄우지 않고 정상 시작합니다.
 - 외부 배경, 타이머, 녹음기, 달력·메모 카드를 따로 꾸미고 카드별 투명도를 조절합니다.
-- 2.0.22에는 결제나 유료 기능 제한이 없습니다. 2027년 2월 28일까지 가입한 계정은
+- 2.0.23에는 결제나 유료 기능 제한이 없습니다. 2027년 2월 28일까지 가입한 계정은
   이후 업데이트를 포함해 계속 무료입니다. 2027년 3월 1일 이후 신규 가입 계정은
   2,900원 유료 전환 예정이며, 결제 방식과 세부 기준은 전환 전에 별도 안내합니다.

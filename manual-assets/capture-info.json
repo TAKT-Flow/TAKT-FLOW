@@ -1,8 +1,8 @@
 {
-  "app_version": "2.0.22",
-  "runtime_source_base_commit": "4ddd86a",
-  "runtime_source_state": "2.0.22 release working tree captured before its source commit",
-  "captured_on": "2026-10-17",
+  "app_version": "2.0.23",
+  "runtime_source_base_commit": "685c6c0",
+  "runtime_source_state": "2.0.23 release working tree captured before its source commit",
+  "captured_on": "2026-10-18",
   "platform": "Windows",
   "isolated_example_data": true,
   "production_settings_changed": false,
