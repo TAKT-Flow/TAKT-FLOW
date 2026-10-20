@@ -10,31 +10,42 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.24-1_amd64.deb
+sudo apt install ./takt_2.0.25-1_amd64.deb
 ```
 
 SHA-256:
-`9a39aab9597d71efb50bd7ce9beec60edd4a7e06a251912c394c1709d3387b1f`
+`ad7096874cd7091e20ab617267793ae50387e11b3258f0816cbe932860cdd5e1`
 
-See the [installation guide](설치-매뉴얼.md) and [2.0.24 user manual](사용-매뉴얼.md)
+See the [installation guide](설치-매뉴얼.md) and [2.0.25 user manual](사용-매뉴얼.md)
 ([English quick guide](사용-매뉴얼.md#english)). The manual covers first launch, startup
 settings, all five views, widgets, shared access and detailed input with 12 actual
 application screenshots using example data.
 
-**Manual formats (2.0.24):** [Read online](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [Download PDF](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.24/TAKT-FLOW-User-Manual-2.0.24.pdf) · [Download offline HTML](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.24/TAKT-FLOW-User-Manual-2.0.24.html)
+**Manual formats (2.0.25):** [Read online](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [Download PDF](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.25/TAKT-FLOW-User-Manual-2.0.25.pdf) · [Download offline HTML](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.25/TAKT-FLOW-User-Manual-2.0.25.html)
 
-The reviewed PDF has 33 searchable pages and chapter bookmarks. The standalone
+The reviewed PDF has 34 searchable pages and chapter bookmarks. The standalone
 HTML includes all screenshots for offline use. The full guide is Korean with an
 English quick guide; no separate app or installation is needed to read it.
 
-**매뉴얼 보기·저장:** [웹에서 읽기](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.24/TAKT-FLOW-User-Manual-2.0.24.pdf) · [HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.24/TAKT-FLOW-User-Manual-2.0.24.html)
+**매뉴얼 보기·저장:** [웹에서 읽기](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.25/TAKT-FLOW-User-Manual-2.0.25.pdf) · [HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.25/TAKT-FLOW-User-Manual-2.0.25.html)
 
-PDF는 33쪽으로 목차·책갈피·한글 검색을 지원합니다. HTML은 화면 이미지가
+PDF는 34쪽으로 목차·책갈피·한글 검색을 지원합니다. HTML은 화면 이미지가
 포함된 단일 파일이므로 내려받은 뒤 인터넷 없이 브라우저에서 열 수 있습니다.
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.0.24 highlights
+## 2.0.25 highlights
+
+- Start with an existing account, create one, or use TAKT locally without an
+  account. The choice is remembered, then the five-workspace picker opens.
+- New email accounts choose a unique username and can sign in with it or their
+  email. Existing accounts keep email sign-in without a required username.
+- Find a username through verified email or reset an email password using a
+  username or email. Google and Kakao sign-in and account linking remain.
+- Keep login feedback visible on short screens and first-start controls readable
+  at high display scaling. The illustrated PDF and offline HTML are updated.
+
+## Included from 2.0.24
 
 - Choose branded Kakao, Google or email entry buttons. Use sign-in help and a
   verified-email password reset without changing account identity or calendar data.
@@ -181,17 +192,28 @@ Ubuntu 데스크톱 앱입니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.23-1_amd64.deb
+sudo apt install ./takt_2.0.25-1_amd64.deb
 ```
 
 SHA-256:
-`c6eb3405a5323be1c87edb1a20652a36eb1aee465deb8b3f1f35e5b3a8cda7ad`
+`ad7096874cd7091e20ab617267793ae50387e11b3258f0816cbe932860cdd5e1`
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
-[2.0.23 사용 매뉴얼](사용-매뉴얼.md)을 확인하세요. 초기 화면·자동 실행·모드별 사용법·
+[2.0.25 사용 매뉴얼](사용-매뉴얼.md)을 확인하세요. 초기 화면·자동 실행·모드별 사용법·
 위젯·Shift+Enter·공유 권한·백업을 14개 절과 실제 예시 화면 12장으로 안내합니다.
 
-## 2.0.23 업데이트
+[웹에서 읽기](https://takt-download.rldndprogram.chatgpt.site/manual.html) ·
+[PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.25/TAKT-FLOW-User-Manual-2.0.25.pdf) ·
+[오프라인 HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.25/TAKT-FLOW-User-Manual-2.0.25.html)
+
+## 2.0.25 업데이트
+
+- 처음 실행에서 가입·로그인 또는 계정 없이 시작을 고르고, 이후에는 선택한 화면을 복원합니다.
+- 새 이메일 계정은 중복 확인한 아이디 또는 이메일로 로그인할 수 있습니다. 기존 계정은 아이디 없이도 계속 이메일로 로그인합니다.
+- 인증 메일로 아이디를 확인하고, 아이디 또는 이메일로 비밀번호 재설정을 요청할 수 있습니다.
+- 34쪽 PDF와 오프라인 HTML 매뉴얼을 최신 화면에 맞춰 갱신했습니다.
+
+## 이전 2.0.23 업데이트
 
 - 기본 캘린더의 기기 동기화와 다른 사람과의 공유를 구분하고 기존 자료를 유지합니다.
 - 안전한 변경은 자동 동기화하며 실제 충돌이 있을 때만 선택을 요청합니다.
