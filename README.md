@@ -10,31 +10,40 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.25-1_amd64.deb
+sudo apt install ./takt_2.0.26-1_amd64.deb
 ```
 
 SHA-256:
-`ad7096874cd7091e20ab617267793ae50387e11b3258f0816cbe932860cdd5e1`
+`877825ae50308e5621d36cda39571d0b7439441ba3928940f3c7207b5680a560`
 
-See the [installation guide](설치-매뉴얼.md) and [2.0.25 user manual](사용-매뉴얼.md)
+See the [installation guide](설치-매뉴얼.md) and [2.0.26 user manual](사용-매뉴얼.md)
 ([English quick guide](사용-매뉴얼.md#english)). The manual covers first launch, startup
 settings, all five views, widgets, shared access and detailed input with 12 actual
 application screenshots using example data.
 
-**Manual formats (2.0.25):** [Read online](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [Download PDF](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.25/TAKT-FLOW-User-Manual-2.0.25.pdf) · [Download offline HTML](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.25/TAKT-FLOW-User-Manual-2.0.25.html)
+**Manual formats (2.0.26):** [Read online](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [Download PDF](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.26/TAKT-FLOW-User-Manual-2.0.26.pdf) · [Download offline HTML](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.26/TAKT-FLOW-User-Manual-2.0.26.html)
 
 The reviewed PDF has 34 searchable pages and chapter bookmarks. The standalone
 HTML includes all screenshots for offline use. The full guide is Korean with an
 English quick guide; no separate app or installation is needed to read it.
 
-**매뉴얼 보기·저장:** [웹에서 읽기](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.25/TAKT-FLOW-User-Manual-2.0.25.pdf) · [HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.25/TAKT-FLOW-User-Manual-2.0.25.html)
+**매뉴얼 보기·저장:** [웹에서 읽기](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.26/TAKT-FLOW-User-Manual-2.0.26.pdf) · [HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.26/TAKT-FLOW-User-Manual-2.0.26.html)
 
 PDF는 34쪽으로 목차·책갈피·한글 검색을 지원합니다. HTML은 화면 이미지가
 포함된 단일 파일이므로 내려받은 뒤 인터넷 없이 브라우저에서 열 수 있습니다.
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.0.25 highlights
+## 2.0.26 highlights
+
+- Import ICS and text-based PDF schedules into an existing calendar after
+  reviewing candidates. Exact duplicates are skipped; existing data remains.
+- Use optional, consent-based online OCR for scanned PDFs while signed in.
+  Recognized text is previewed before adding events and shared usage limits apply.
+- Export an editable calendar's schedules as ICS. Complex month grids,
+  two-column layouts and overnight ranges are conservatively omitted.
+
+## Included from 2.0.25
 
 - Start with an existing account, create one, or use TAKT locally without an
   account. The choice is remembered, then the five-workspace picker opens.
