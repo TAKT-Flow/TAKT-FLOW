@@ -201,21 +201,27 @@ Ubuntu 데스크톱 앱입니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.25-1_amd64.deb
+sudo apt install ./takt_2.0.26-1_amd64.deb
 ```
 
 SHA-256:
-`ad7096874cd7091e20ab617267793ae50387e11b3258f0816cbe932860cdd5e1`
+`877825ae50308e5621d36cda39571d0b7439441ba3928940f3c7207b5680a560`
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
-[2.0.25 사용 매뉴얼](사용-매뉴얼.md)을 확인하세요. 초기 화면·자동 실행·모드별 사용법·
+[2.0.26 사용 매뉴얼](사용-매뉴얼.md)을 확인하세요. 초기 화면·자동 실행·모드별 사용법·
 위젯·Shift+Enter·공유 권한·백업을 14개 절과 실제 예시 화면 12장으로 안내합니다.
 
 [웹에서 읽기](https://takt-download.rldndprogram.chatgpt.site/manual.html) ·
-[PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.25/TAKT-FLOW-User-Manual-2.0.25.pdf) ·
-[오프라인 HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.25/TAKT-FLOW-User-Manual-2.0.25.html)
+[PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.26/TAKT-FLOW-User-Manual-2.0.26.pdf) ·
+[오프라인 HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.26/TAKT-FLOW-User-Manual-2.0.26.html)
 
-## 2.0.25 업데이트
+## 2.0.26 업데이트
+
+- 캘린더 설정에서 ICS와 텍스트 PDF 일정을 미리보고 기존 일정에 추가합니다. 같은 일정은 중복으로 만들지 않습니다.
+- 스캔 PDF는 로그인과 전송 동의 후 온라인 문자 인식을 사용합니다. 인식된 일정을 확인한 뒤 선택해 추가합니다.
+- 편집 가능한 캘린더의 일정을 ICS로 내보낼 수 있으며 기존 계정·자료는 유지됩니다.
+
+## 2.0.25 포함 기능
 
 - 처음 실행에서 가입·로그인 또는 계정 없이 시작을 고르고, 이후에는 선택한 화면을 복원합니다.
 - 새 이메일 계정은 중복 확인한 아이디 또는 이메일로 로그인할 수 있습니다. 기존 계정은 아이디 없이도 계속 이메일로 로그인합니다.
