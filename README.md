@@ -6,35 +6,42 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 ## Download and install
 
 - [Download the latest Ubuntu release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/latest)
-- Supported: Ubuntu 20.04 / 22.04 / 24.04 LTS, x86-64 (amd64)
+- Supported for 2.0.27: Ubuntu 22.04 / 24.04 LTS, x86-64 (amd64). Ubuntu 20.04 can continue using the [archived 2.0.26 release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26).
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.26-1_amd64.deb
+sudo apt install ./takt_2.0.27-1_amd64.deb
 ```
 
 SHA-256:
-`877825ae50308e5621d36cda39571d0b7439441ba3928940f3c7207b5680a560`
+`9b29fabaa78f4ccd34a73339bff40e77350470e397278c8a70780610ce68f8c9`
 
-See the [installation guide](설치-매뉴얼.md) and [2.0.26 user manual](사용-매뉴얼.md)
+See the [installation guide](설치-매뉴얼.md) and [2.0.27 user manual](사용-매뉴얼.md)
 ([English quick guide](사용-매뉴얼.md#english)). The manual covers first launch, startup
 settings, all five views, widgets, shared access and detailed input with 12 actual
 application screenshots using example data.
 
-**Manual formats (2.0.26):** [Read online](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [Download PDF](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.26/TAKT-FLOW-User-Manual-2.0.26.pdf) · [Download offline HTML](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.26/TAKT-FLOW-User-Manual-2.0.26.html)
+**Manual formats (2.0.27):** [Read online](사용-매뉴얼.md) · [Download PDF](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.27/TAKT-FLOW-User-Manual-2.0.27.pdf) · [Download offline HTML](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.27/TAKT-FLOW-User-Manual-2.0.27.html)
 
-The reviewed PDF has 34 searchable pages and chapter bookmarks. The standalone
+The reviewed PDF has 35 searchable pages and chapter bookmarks. The standalone
 HTML includes all screenshots for offline use. The full guide is Korean with an
 English quick guide; no separate app or installation is needed to read it.
 
-**매뉴얼 보기·저장:** [웹에서 읽기](https://takt-download.rldndprogram.chatgpt.site/manual.html) · [PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.26/TAKT-FLOW-User-Manual-2.0.26.pdf) · [HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.26/TAKT-FLOW-User-Manual-2.0.26.html)
+**매뉴얼 보기·저장:** [웹에서 읽기](사용-매뉴얼.md) · [PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.27/TAKT-FLOW-User-Manual-2.0.27.pdf) · [HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.27/TAKT-FLOW-User-Manual-2.0.27.html)
 
-PDF는 34쪽으로 목차·책갈피·한글 검색을 지원합니다. HTML은 화면 이미지가
+PDF는 35쪽으로 목차·책갈피·한글 검색을 지원합니다. HTML은 화면 이미지가
 포함된 단일 파일이므로 내려받은 뒤 인터넷 없이 브라우저에서 열 수 있습니다.
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.0.26 highlights
+## 2.0.27 highlights
+
+- Attach up to five private cloud files per calendar date and open them from another signed-in device. Shared-calendar members can view them; upload and deletion follow calendar permissions.
+- Mark dates with a fixed teal dot for files and a separate document-tag color dot for document memos.
+- Export document memos as DOCX or HWPX. Insert and edit tables, then delete a row, column or whole table from the context menu or keyboard.
+- Existing accounts, calendars and local data remain in place. Ubuntu 20.04 stays on 2.0.26; new features require 22.04 or newer.
+
+## Included from 2.0.26
 
 - Import ICS and text-based PDF schedules into an existing calendar after
   reviewing candidates. Exact duplicates are skipped; existing data remains.
@@ -197,25 +204,32 @@ and Windows installers are maintained separately.
 Ubuntu 데스크톱 앱입니다.
 
 - [최신 Ubuntu 설치 파일 받기](https://github.com/TAKT-Flow/TAKT-FLOW/releases/latest)
-- 지원 환경: Ubuntu 20.04 / 22.04 / 24.04 LTS, x86-64(amd64)
+- 2.0.27 지원 환경: Ubuntu 22.04 / 24.04 LTS, x86-64(amd64). Ubuntu 20.04는 [기존 2.0.26 릴리스](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26)를 계속 사용할 수 있습니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.0.26-1_amd64.deb
+sudo apt install ./takt_2.0.27-1_amd64.deb
 ```
 
 SHA-256:
-`877825ae50308e5621d36cda39571d0b7439441ba3928940f3c7207b5680a560`
+`9b29fabaa78f4ccd34a73339bff40e77350470e397278c8a70780610ce68f8c9`
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
-[2.0.26 사용 매뉴얼](사용-매뉴얼.md)을 확인하세요. 초기 화면·자동 실행·모드별 사용법·
+[2.0.27 사용 매뉴얼](사용-매뉴얼.md)을 확인하세요. 초기 화면·자동 실행·모드별 사용법·
 위젯·Shift+Enter·공유 권한·백업을 14개 절과 실제 예시 화면 12장으로 안내합니다.
 
-[웹에서 읽기](https://takt-download.rldndprogram.chatgpt.site/manual.html) ·
-[PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.26/TAKT-FLOW-User-Manual-2.0.26.pdf) ·
-[오프라인 HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.26/TAKT-FLOW-User-Manual-2.0.26.html)
+[웹에서 읽기](사용-매뉴얼.md) ·
+[PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.27/TAKT-FLOW-User-Manual-2.0.27.pdf) ·
+[오프라인 HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.0.27/TAKT-FLOW-User-Manual-2.0.27.html)
 
-## 2.0.26 업데이트
+## 2.0.27 업데이트
+
+- 날짜별 비공개 클라우드 파일을 최대 5개까지 보관하고 다른 로그인 기기에서 열 수 있습니다. 공유 캘린더 구성원도 열람할 수 있습니다.
+- 파일은 고정 청록색, 문서 메모는 대표 태그 색의 원형 점으로 날짜에 표시합니다.
+- 문서 메모를 DOCX/HWPX로 내보내고, 표의 행·열·전체 삭제와 키보드 삭제를 지원합니다.
+- 기존 계정과 자료는 유지합니다. Ubuntu 20.04는 2.0.26을 계속 사용할 수 있습니다.
+
+## 이전 2.0.26 업데이트
 
 - 캘린더 설정에서 ICS와 텍스트 PDF 일정을 미리보고 기존 일정에 추가합니다. 같은 일정은 중복으로 만들지 않습니다.
 - 스캔 PDF는 로그인과 전송 동의 후 온라인 문자 인식을 사용합니다. 인식된 일정을 확인한 뒤 선택해 추가합니다.
