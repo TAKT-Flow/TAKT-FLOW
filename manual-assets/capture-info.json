@@ -1,11 +1,11 @@
 {
-  "app_version": "2.1.0",
-  "runtime_source_base_commit": "4f3417e",
-  "runtime_source_state": "2.1.0 release working tree captured before its source commit",
-  "captured_on": "2026-10-23",
-  "platform": "Windows",
+  "app_version": "2.1.1",
+  "runtime_source_base_commit": "a4109049aa1ec13abe66721c5d36e01559fe596c",
+  "runtime_source_state": "release working tree captured before its source commit",
+  "captured_on": "2026-10-25",
+  "platform": "linux",
   "isolated_example_data": true,
   "production_settings_changed": false,
-  "description": "Actual Qt widgets, captured without editing the images; sample schedules, links and practice records only.",
+  "description": "Actual Qt widgets; isolated sample data; images not edited.",
   "command": "python tools/capture_manual_screens.py --output <review-folder>"
 }
