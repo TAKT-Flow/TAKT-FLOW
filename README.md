@@ -6,15 +6,19 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 ## Download and install
 
 - [Download the latest Ubuntu release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/latest)
-- Supported for 2.1.1: Ubuntu 22.04 / 24.04 LTS, x86-64 (amd64). Ubuntu 20.04 can continue using the [archived 2.0.26 release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26).
+- Supported for 2.1.2: Ubuntu 22.04 / 24.04 LTS, x86-64 (amd64). Ubuntu 20.04 can continue using the [archived 2.0.26 release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26).
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.1.1-1_amd64.deb
+sudo apt install ./takt_2.1.2-1_amd64.deb
 ```
 
 SHA-256:
-`5298f406d6ec3e232eb0d569ea235afc91c90a3150d3f2b55d4c2d9a094d4f8c`
+`f63950397d90ec273a8e44e9de21eb8814024c9d7588429e3ddaf222e4b531c5`
+
+You can install over an existing TAKT installation, or remove only the application
+with `sudo apt remove takt` and then reinstall. Both keep your existing data and
+settings. See both procedures in the [installation guide](설치-매뉴얼.md).
 
 See the [installation guide](설치-매뉴얼.md) and [2.1.1 user manual](사용-매뉴얼.md)
 ([English quick guide](사용-매뉴얼.md#english)). The manual covers first launch, startup
@@ -34,7 +38,17 @@ PDF는 36쪽으로 목차·책갈피·한글 검색을 지원합니다. HTML은 
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.1.1 highlights
+## 2.1.2 highlights
+
+- Hide widget toolbars until needed; switch between calendar and window controls with an icon. Drag a toolbar's background to move the widget.
+- Resize calendars by adding or removing whole weeks, up to 12, retaining text and row sizes. The normal window keeps its monthly calendar.
+- Match rounded corners and spacing, equal date-row heights and thin grid strokes.
+- Keep receiving remote shared contents after an upload failure, preserve queued local edits, and show pending/conflicted states accurately.
+- Existing accounts, schedules, documents, files, backgrounds and timer records keep their existing storage. Archived/quarantined edits are not automatically replayed.
+
+The PDF/HTML manuals above remain the reviewed 2.1.1 edition; the widget and sync changes are described here.
+
+## Included from 2.1.1
 
 - Display Korean public holidays offline by default. Search 250 countries and territories, or turn display off, from Settings > Public holidays below Language.
 - Show holidays as a fixed red first row without creating events or notes. Remove unused top space and keep user rows in input order.
@@ -211,15 +225,19 @@ and Windows installers are maintained separately.
 Ubuntu 데스크톱 앱입니다.
 
 - [최신 Ubuntu 설치 파일 받기](https://github.com/TAKT-Flow/TAKT-FLOW/releases/latest)
-- 2.1.1 지원 환경: Ubuntu 22.04 / 24.04 LTS, x86-64(amd64). Ubuntu 20.04는 [기존 2.0.26 릴리스](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26)를 계속 사용할 수 있습니다.
+- 2.1.2 지원 환경: Ubuntu 22.04 / 24.04 LTS, x86-64(amd64). Ubuntu 20.04는 [기존 2.0.26 릴리스](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26)를 계속 사용할 수 있습니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.1.1-1_amd64.deb
+sudo apt install ./takt_2.1.2-1_amd64.deb
 ```
 
 SHA-256:
-`5298f406d6ec3e232eb0d569ea235afc91c90a3150d3f2b55d4c2d9a094d4f8c`
+`f63950397d90ec273a8e44e9de21eb8814024c9d7588429e3ddaf222e4b531c5`
+
+기존 앱 위에 그대로 설치하거나, `sudo apt remove takt`로 프로그램만 제거한 뒤
+재설치할 수 있습니다. 두 방법 모두 기존 계정·일정·파일·설정을 유지합니다.
+각 절차는 [설치 매뉴얼](설치-매뉴얼.md)에 함께 안내합니다.
 
 설치와 업데이트, 삭제 방법은 [설치 매뉴얼](설치-매뉴얼.md), 기능 사용법은
 [2.1.1 사용 매뉴얼](사용-매뉴얼.md)을 확인하세요. 초기 화면·자동 실행·모드별 사용법·
@@ -229,7 +247,17 @@ SHA-256:
 [PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.1.1/TAKT-FLOW-User-Manual-2.1.1.pdf) ·
 [오프라인 HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.1.1/TAKT-FLOW-User-Manual-2.1.1.html)
 
-## 2.1.1 업데이트
+## 2.1.2 업데이트
+
+- 위젯 툴바는 필요할 때 표시하고 아이콘으로 달력 도구와 창 설정을 전환합니다. 툴바의 빈 곳을 드래그해 위젯을 이동합니다.
+- 높이를 바꾸면 글씨를 축소하지 않고 표시 주차를 최대 12주까지 조절합니다. 일반 창은 월별 달력을 유지합니다.
+- 모서리와 여백, 날짜 셀 높이와 얇은 격자선을 정리했습니다.
+- 공유 동기화에서 전송 오류가 있어도 최신 내용을 받아오고, 미전송 수정은 보존하며 대기·충돌 상태를 정확히 표시합니다.
+- 기존 계정·일정·문서·파일·배경·측정 기록은 유지합니다. 예전에 격리한 수정·삭제 요청을 자동으로 재전송하지 않습니다.
+
+PDF·HTML 매뉴얼은 기존 검수된 2.1.1 판을 유지하며, 새 위젯·동기화 변경은 위 안내를 참고하세요.
+
+## 이전 2.1.1 업데이트
 
 - 대한민국 공휴일을 기본 표시하며 설정의 언어 아래 공휴일에서 250개 국가·지역을 검색하거나 표시를 끕니다. 새로 지정된 공휴일은 앱 업데이트가 필요합니다.
 - 공휴일은 셀 첫 줄의 고정 빨간 막대로 표시하고 사용자 일정·메모에는 추가하지 않습니다. 위쪽 빈 여백을 줄이고 일정은 입력 순서를 유지합니다.
