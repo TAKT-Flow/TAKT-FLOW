@@ -6,15 +6,15 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 ## Download and install
 
 - [Download the latest Ubuntu release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/latest)
-- Supported for 2.1.3: Ubuntu 22.04 / 24.04 LTS, x86-64 (amd64). Ubuntu 20.04 can continue using the [archived 2.0.26 release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26).
+- Supported for 2.1.4: Ubuntu 22.04 / 24.04 LTS, x86-64 (amd64). Ubuntu 20.04 can continue using the [archived 2.0.26 release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26).
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.1.3-1_amd64.deb
+sudo apt install ./takt_2.1.4-1_amd64.deb
 ```
 
 SHA-256:
-`65947d75b23c8475fb1033af02d40ba55296969478ad51c854ac0970b867ac93`
+`9a2049ba297bf49e8f161637037f6e904aae4bebd0dfc31988d7ec388810ad5e`
 
 You can install over an existing TAKT installation, or remove only the application
 with `sudo apt remove takt` and then reinstall. Both keep your existing data and
@@ -38,7 +38,12 @@ PDF는 36쪽으로 목차·책갈피·한글 검색을 지원합니다. HTML은 
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.1.3 highlights
+## 2.1.4 version alignment
+
+- Same application behavior as 2.1.3; only the Debian/app version is aligned to 2.1.4 alongside Windows.
+- The DEB is rebuilt with package version 2.1.4-1 so apt recognizes it as an update. Existing accounts and data are retained.
+
+## Included from 2.1.3
 
 - Remember the last widget size and position after restarting; right-aligned widgets keep the height you selected.
 - Reveal memo/calendar and workflow panel handles only near their edges, with no reserved divider row in widget mode.
@@ -234,15 +239,15 @@ The PDF/HTML manuals above remain the reviewed 2.1.1 edition; the widget and syn
 Ubuntu 데스크톱 앱입니다.
 
 - [최신 Ubuntu 설치 파일 받기](https://github.com/TAKT-Flow/TAKT-FLOW/releases/latest)
-- 2.1.3 지원 환경: Ubuntu 22.04 / 24.04 LTS, x86-64(amd64). Ubuntu 20.04는 [기존 2.0.26 릴리스](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26)를 계속 사용할 수 있습니다.
+- 2.1.4 지원 환경: Ubuntu 22.04 / 24.04 LTS, x86-64(amd64). Ubuntu 20.04는 [기존 2.0.26 릴리스](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26)를 계속 사용할 수 있습니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.1.3-1_amd64.deb
+sudo apt install ./takt_2.1.4-1_amd64.deb
 ```
 
 SHA-256:
-`65947d75b23c8475fb1033af02d40ba55296969478ad51c854ac0970b867ac93`
+`9a2049ba297bf49e8f161637037f6e904aae4bebd0dfc31988d7ec388810ad5e`
 
 기존 앱 위에 그대로 설치하거나, `sudo apt remove takt`로 프로그램만 제거한 뒤
 재설치할 수 있습니다. 두 방법 모두 기존 계정·일정·파일·설정을 유지합니다.
@@ -256,7 +261,12 @@ SHA-256:
 [PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.1.1/TAKT-FLOW-User-Manual-2.1.1.pdf) ·
 [오프라인 HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.1.1/TAKT-FLOW-User-Manual-2.1.1.html)
 
-## 2.1.3 업데이트
+## 2.1.4 버전 통일
+
+- 기능은 2.1.3과 동일하며 Windows와 맞춰 패키지·앱 표시 버전만 2.1.4로 통일했습니다.
+- 패키지 내부 버전도 2.1.4-1로 빌드해 기존 설치본 위에 업데이트할 수 있습니다. 기존 계정·자료는 유지됩니다.
+
+## 이전 2.1.3 업데이트
 
 - 위젯의 마지막 크기와 위치를 기억하며, 오른쪽에 붙여도 재실행 시 세로로 늘리지 않습니다.
 - 메모·달력과 업무 흐름의 타이머·캘린더 접기/펼치기 버튼은 경계에 마우스를 올리면 나타납니다. 위젯의 전용 구분 여백을 제거했습니다.
