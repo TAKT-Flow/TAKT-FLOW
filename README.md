@@ -6,15 +6,15 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 ## Download and install
 
 - [Download the latest Ubuntu release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/latest)
-- Supported for 2.1.7: Ubuntu 22.04 / 24.04 LTS, x86-64 (amd64). Ubuntu 20.04 can continue using the [archived 2.0.26 release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26).
+- Supported for 2.1.8: Ubuntu 22.04 / 24.04 LTS, x86-64 (amd64). Ubuntu 20.04 can continue using the [archived 2.0.26 release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26).
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.1.7-1_amd64.deb
+sudo apt install ./takt_2.1.8-1_amd64.deb
 ```
 
 SHA-256:
-`795ae6d1ed7c5bff67a716d6818ffe0f4e858c33adf0b3c35cba7d5f8118ba8b`
+`b6bc69291a50032bc8bb24e072ba7b46600e28ea0e6a4c6d60f550906d68b1ee`
 
 You can install over an existing TAKT installation, or remove only the application
 with `sudo apt remove takt` and then reinstall. Both keep your existing data and
@@ -38,7 +38,14 @@ PDF는 36쪽으로 목차·책갈피·한글 검색을 지원합니다. HTML은 
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.1.7 circular controls and consistent picker
+## 2.1.8 connected schedules in compact calendars
+
+- Show complete multiday color bands when they fit instead of incorrectly hiding them as +N.
+- Share painted-row geometry with font fitting, retaining font size, colors, order and cell heights.
+- Recalculate widget weeks after memo restoration so the bottom date row remains fully visible.
+- Preserve saved placement, accounts, documents, files, photos, timer history and sync protections.
+
+## Included from 2.1.7: circular controls and consistent picker
 
 - Keep account initials/photos and invitation badges circular after switching between normal and widget mode.
 - Match year/month/Go controls at 28px with 11px regular text and aligned baselines.
@@ -257,15 +264,15 @@ The PDF/HTML manuals above remain the reviewed 2.1.1 edition; the widget and syn
 Ubuntu 데스크톱 앱입니다.
 
 - [최신 Ubuntu 설치 파일 받기](https://github.com/TAKT-Flow/TAKT-FLOW/releases/latest)
-- 2.1.7 지원 환경: Ubuntu 22.04 / 24.04 LTS, x86-64(amd64). Ubuntu 20.04는 [기존 2.0.26 릴리스](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26)를 계속 사용할 수 있습니다.
+- 2.1.8 지원 환경: Ubuntu 22.04 / 24.04 LTS, x86-64(amd64). Ubuntu 20.04는 [기존 2.0.26 릴리스](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26)를 계속 사용할 수 있습니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.1.7-1_amd64.deb
+sudo apt install ./takt_2.1.8-1_amd64.deb
 ```
 
 SHA-256:
-`795ae6d1ed7c5bff67a716d6818ffe0f4e858c33adf0b3c35cba7d5f8118ba8b`
+`b6bc69291a50032bc8bb24e072ba7b46600e28ea0e6a4c6d60f550906d68b1ee`
 
 기존 앱 위에 그대로 설치하거나, `sudo apt remove takt`로 프로그램만 제거한 뒤
 재설치할 수 있습니다. 두 방법 모두 기존 계정·일정·파일·설정을 유지합니다.
@@ -279,7 +286,14 @@ SHA-256:
 [PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.1.1/TAKT-FLOW-User-Manual-2.1.1.pdf) ·
 [오프라인 HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.1.1/TAKT-FLOW-User-Manual-2.1.1.html)
 
-## 2.1.7 원형 계정 버튼과 일관된 선택창
+## 2.1.8 작은 달력의 연결 일정 표시
+
+- 공간이 있는데도 여러 날 일정이 +1로 숨는 문제를 수정했습니다.
+- 실제 막대 높이로 줄 수를 계산하며 글씨·색상·입력 순서·셀 높이는 유지합니다.
+- 메모를 접었다 펼친 뒤 마지막 주가 잘리는 경우를 수정했습니다.
+- 기존 계정·자료·위젯 위치·크기·비율 복원과 동기화 보호를 유지합니다.
+
+## 2.1.7에서 포함: 원형 계정 버튼과 일관된 선택창
 
 - 위젯·일반 창 전환 시 계정 사진·이니셜과 초대 알림 점의 원형을 유지합니다.
 - 연도·월·이동 버튼의 높이·글씨·기준선을 통일했습니다.
