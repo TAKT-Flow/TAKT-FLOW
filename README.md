@@ -14,7 +14,7 @@ sudo apt install ./takt_2.1.6-1_amd64.deb
 ```
 
 SHA-256:
-`0e18ba01ec13b8af701ea4b870c0223a7c1013d0be75015c84bf14c2358983c6`
+`38d1666eb461e932df925777dfe123f3aaec94b14e24f87274391f66e1a1e901`
 
 You can install over an existing TAKT installation, or remove only the application
 with `sudo apt remove takt` and then reinstall. Both keep your existing data and
@@ -39,6 +39,8 @@ This repository contains only the Ubuntu package and user documentation; app sou
 and Windows installers are maintained separately.
 
 ## 2.1.6 compact calendar and floating tools
+
+- Keep title and toolbar labels at the same 11px size, with a bold title and a legible themed month picker.
 
 - Left-align the year/month in a smaller calendar header. Adjacent month arrows appear on hover or keyboard focus without shifting the calendar.
 - Click the title to choose year/month. Reduce widget outer margins and both floating toolbars, including button/icon sizes and gaps.
@@ -256,7 +258,7 @@ sudo apt install ./takt_2.1.6-1_amd64.deb
 ```
 
 SHA-256:
-`0e18ba01ec13b8af701ea4b870c0223a7c1013d0be75015c84bf14c2358983c6`
+`38d1666eb461e932df925777dfe123f3aaec94b14e24f87274391f66e1a1e901`
 
 기존 앱 위에 그대로 설치하거나, `sudo apt remove takt`로 프로그램만 제거한 뒤
 재설치할 수 있습니다. 두 방법 모두 기존 계정·일정·파일·설정을 유지합니다.
@@ -271,6 +273,8 @@ SHA-256:
 [오프라인 HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.1.1/TAKT-FLOW-User-Manual-2.1.1.html)
 
 ## 2.1.6 간결한 달력 제목과 호버 도구
+
+- 제목과 툴바 글자는 같은 11px로 맞추고 제목만 굵게 표시합니다. 월 선택창 글자의 테마 대비를 개선했습니다.
 
 - 년·월을 왼쪽에 모으고 제목 옆 월 이동 버튼은 호버·키보드로 표시합니다. 제목에서 년·월을 직접 고를 수 있습니다.
 - 위젯 여백은 8px로 정리하고 두 호버 툴바의 버튼·아이콘·간격을 함께 줄였습니다.
