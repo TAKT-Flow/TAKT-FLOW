@@ -6,15 +6,15 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 ## Download and install
 
 - [Download the latest Ubuntu release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/latest)
-- Supported for 2.1.6: Ubuntu 22.04 / 24.04 LTS, x86-64 (amd64). Ubuntu 20.04 can continue using the [archived 2.0.26 release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26).
+- Supported for 2.1.7: Ubuntu 22.04 / 24.04 LTS, x86-64 (amd64). Ubuntu 20.04 can continue using the [archived 2.0.26 release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26).
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.1.6-1_amd64.deb
+sudo apt install ./takt_2.1.7-1_amd64.deb
 ```
 
 SHA-256:
-`38d1666eb461e932df925777dfe123f3aaec94b14e24f87274391f66e1a1e901`
+`795ae6d1ed7c5bff67a716d6818ffe0f4e858c33adf0b3c35cba7d5f8118ba8b`
 
 You can install over an existing TAKT installation, or remove only the application
 with `sudo apt remove takt` and then reinstall. Both keep your existing data and
@@ -38,7 +38,14 @@ PDF는 36쪽으로 목차·책갈피·한글 검색을 지원합니다. HTML은 
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.1.6 compact calendar and floating tools
+## 2.1.7 circular controls and consistent picker
+
+- Keep account initials/photos and invitation badges circular after switching between normal and widget mode.
+- Match year/month/Go controls at 28px with 11px regular text and aligned baselines.
+- Verify actual rendered circle pixels, repeated theme/mode changes, hover/focus/pressed states and DPI scaling.
+- Retain compact calendar tools, memo resizing, saved geometry and all existing data.
+
+## Included from 2.1.6: compact calendar and floating tools
 
 - Keep title and toolbar labels at the same 11px size, with a bold title and a legible themed month picker.
 
@@ -250,15 +257,15 @@ The PDF/HTML manuals above remain the reviewed 2.1.1 edition; the widget and syn
 Ubuntu 데스크톱 앱입니다.
 
 - [최신 Ubuntu 설치 파일 받기](https://github.com/TAKT-Flow/TAKT-FLOW/releases/latest)
-- 2.1.6 지원 환경: Ubuntu 22.04 / 24.04 LTS, x86-64(amd64). Ubuntu 20.04는 [기존 2.0.26 릴리스](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26)를 계속 사용할 수 있습니다.
+- 2.1.7 지원 환경: Ubuntu 22.04 / 24.04 LTS, x86-64(amd64). Ubuntu 20.04는 [기존 2.0.26 릴리스](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26)를 계속 사용할 수 있습니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.1.6-1_amd64.deb
+sudo apt install ./takt_2.1.7-1_amd64.deb
 ```
 
 SHA-256:
-`38d1666eb461e932df925777dfe123f3aaec94b14e24f87274391f66e1a1e901`
+`795ae6d1ed7c5bff67a716d6818ffe0f4e858c33adf0b3c35cba7d5f8118ba8b`
 
 기존 앱 위에 그대로 설치하거나, `sudo apt remove takt`로 프로그램만 제거한 뒤
 재설치할 수 있습니다. 두 방법 모두 기존 계정·일정·파일·설정을 유지합니다.
@@ -272,7 +279,14 @@ SHA-256:
 [PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.1.1/TAKT-FLOW-User-Manual-2.1.1.pdf) ·
 [오프라인 HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.1.1/TAKT-FLOW-User-Manual-2.1.1.html)
 
-## 2.1.6 간결한 달력 제목과 호버 도구
+## 2.1.7 원형 계정 버튼과 일관된 선택창
+
+- 위젯·일반 창 전환 시 계정 사진·이니셜과 초대 알림 점의 원형을 유지합니다.
+- 연도·월·이동 버튼의 높이·글씨·기준선을 통일했습니다.
+- 실제 픽셀, 테마·창 전환, 호버·포커스·눌림 및 화면 배율 회귀 검사를 추가했습니다.
+- 기존 여백·툴바·메모 조절·재실행 복원과 계정·자료는 유지합니다.
+
+## 2.1.6에서 포함: 간결한 달력 제목과 호버 도구
 
 - 제목과 툴바 글자는 같은 11px로 맞추고 제목만 굵게 표시합니다. 월 선택창 글자의 테마 대비를 개선했습니다.
 
