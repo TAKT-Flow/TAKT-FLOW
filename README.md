@@ -6,15 +6,15 @@ practice, and desktop widgets in one English/Korean Ubuntu workspace.
 ## Download and install
 
 - [Download the latest Ubuntu release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/latest)
-- Supported for 2.1.5: Ubuntu 22.04 / 24.04 LTS, x86-64 (amd64). Ubuntu 20.04 can continue using the [archived 2.0.26 release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26).
+- Supported for 2.1.6: Ubuntu 22.04 / 24.04 LTS, x86-64 (amd64). Ubuntu 20.04 can continue using the [archived 2.0.26 release](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26).
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.1.5-1_amd64.deb
+sudo apt install ./takt_2.1.6-1_amd64.deb
 ```
 
 SHA-256:
-`d264266fd25dfdbce4897d188ed84030e3502d7f3c60bcaa3b1ba552b1b1bacd`
+`0e18ba01ec13b8af701ea4b870c0223a7c1013d0be75015c84bf14c2358983c6`
 
 You can install over an existing TAKT installation, or remove only the application
 with `sudo apt remove takt` and then reinstall. Both keep your existing data and
@@ -38,7 +38,14 @@ PDF는 36쪽으로 목차·책갈피·한글 검색을 지원합니다. HTML은 
 This repository contains only the Ubuntu package and user documentation; app source
 and Windows installers are maintained separately.
 
-## 2.1.5 calendar and memo resizing
+## 2.1.6 compact calendar and floating tools
+
+- Left-align the year/month in a smaller calendar header. Adjacent month arrows appear on hover or keyboard focus without shifting the calendar.
+- Click the title to choose year/month. Reduce widget outer margins and both floating toolbars, including button/icon sizes and gaps.
+- Keep normal-window controls, memo-first shrinking, independent calendar/memo split preferences and saved placement.
+- Existing accounts, documents, files, photos and sync safeguards are retained.
+
+## Included from 2.1.5: calendar and memo resizing
 
 - Fix the hidden document editor reserving unnecessary height in the todo memo. The visible memo shrinks first, then calendar weeks are removed.
 - Drag the transparent calendar/memo boundary to choose their heights; main and standalone widget preferences are saved separately.
@@ -241,15 +248,15 @@ The PDF/HTML manuals above remain the reviewed 2.1.1 edition; the widget and syn
 Ubuntu 데스크톱 앱입니다.
 
 - [최신 Ubuntu 설치 파일 받기](https://github.com/TAKT-Flow/TAKT-FLOW/releases/latest)
-- 2.1.5 지원 환경: Ubuntu 22.04 / 24.04 LTS, x86-64(amd64). Ubuntu 20.04는 [기존 2.0.26 릴리스](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26)를 계속 사용할 수 있습니다.
+- 2.1.6 지원 환경: Ubuntu 22.04 / 24.04 LTS, x86-64(amd64). Ubuntu 20.04는 [기존 2.0.26 릴리스](https://github.com/TAKT-Flow/TAKT-FLOW/releases/tag/v2.0.26)를 계속 사용할 수 있습니다.
 
 ```bash
 cd ~/Downloads
-sudo apt install ./takt_2.1.5-1_amd64.deb
+sudo apt install ./takt_2.1.6-1_amd64.deb
 ```
 
 SHA-256:
-`d264266fd25dfdbce4897d188ed84030e3502d7f3c60bcaa3b1ba552b1b1bacd`
+`0e18ba01ec13b8af701ea4b870c0223a7c1013d0be75015c84bf14c2358983c6`
 
 기존 앱 위에 그대로 설치하거나, `sudo apt remove takt`로 프로그램만 제거한 뒤
 재설치할 수 있습니다. 두 방법 모두 기존 계정·일정·파일·설정을 유지합니다.
@@ -263,7 +270,13 @@ SHA-256:
 [PDF 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.1.1/TAKT-FLOW-User-Manual-2.1.1.pdf) ·
 [오프라인 HTML 다운로드](https://github.com/TAKT-Flow/TAKT-FLOW/releases/download/v2.1.1/TAKT-FLOW-User-Manual-2.1.1.html)
 
-## 2.1.5 달력·메모 크기 조절
+## 2.1.6 간결한 달력 제목과 호버 도구
+
+- 년·월을 왼쪽에 모으고 제목 옆 월 이동 버튼은 호버·키보드로 표시합니다. 제목에서 년·월을 직접 고를 수 있습니다.
+- 위젯 여백은 8px로 정리하고 두 호버 툴바의 버튼·아이콘·간격을 함께 줄였습니다.
+- 메모 우선 축소, 달력·메모 경계 드래그, 별도 비율 저장과 기존 계정·자료를 유지합니다.
+
+## 2.1.5에서 이어지는 달력·메모 크기 조절
 
 - 숨겨진 문서 편집 화면 때문에 할 일 메모가 일찍 멈추던 문제를 수정했습니다. 현재 메모가 먼저 줄고 그다음 달력 주차가 줄어듭니다.
 - 달력·메모 사이의 투명 영역을 위아래로 끌어 높이를 직접 조절하고, 본창과 독립 위젯의 마지막 비율을 각각 기억합니다.
